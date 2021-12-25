@@ -107,7 +107,8 @@ exports.anjawaOff = (command) => {
 	return `✅ ${command} Di Nonaktifkan`
 	}
 exports.anjawaUdhOn = (command) => {
-	return `✅ ${command} sudah aktif`
+	return `
+✅ ${command} sudah aktif`
 	}
 exports.anjawaUdhOon = (command) => {
 	return `Pilih on untuk mengaktifkan, off untuk menonaktifkan`
